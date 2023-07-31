@@ -1,18 +1,29 @@
-#include <bits/stdc++.h> 
-using namespace std;
+import java.util.*; 
+import java.io.*;
 
-
-
-
-int main()
-{
-        int n,k;
-        cin>>n>>k;
-        vector<int> skills(n+5);
-        while(1)
-        {
-          cout<<1<<endl;
+class Main {  
+  public static String SimpleSymbols(String str) { 
+  String tru = "true";
+  String fal = "false";
+   // char[] str1 = str.toCharArray();
+   for(int i = 0 ; i<str.length() ; i++){
+       if(str.charAt(i)<='z'&&str.charAt(i)>='A'){
+        if(i==0){
+        return fal;
         }
-        // solve(skills,0,n,k);
-
+           if(str.charAt(i-1)=='+'&&str.charAt(i+1)=='+')
+           return tru;
+       }
+      
+   }
+    
+     return fal;
+  } 
+  
+  public static void main (String[] args) {  
+    // keep this function call here     
+    Scanner s = new Scanner(System.in);
+    System.out.print(SimpleSymbols(s.nextLine())); 
+  }   
+  
 }
