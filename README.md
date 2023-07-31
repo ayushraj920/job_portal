@@ -11,8 +11,6 @@
 ## User Home
 ![img](https://github.com/hackifme1/Job-Portal/blob/main/sample_ss/User_home.PNG)
 
-## Admin Home
-![img](https://github.com/hackifme1/Job-Portal/blob/main/sample_ss/Admin_home.PNG)
 
 # Technology and Languages Used
   - Flask Framework
