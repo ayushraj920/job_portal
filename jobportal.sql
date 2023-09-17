@@ -34,7 +34,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`, `mobile number`, `name`, `surname`) VALUES
-(1, 'admin@gmail.com', 'admin@1A%&', 1234567095, 'Chandramani', 'Kumar'),
+(1, 'admin@gmail.com', 'admin@1A%&', 1234567095, 'Ayush', 'Raj'),
 (2, 'admin1@gmail.com', 'admin1#2D%$', 3124567893, 'Singhal', 'Oberoi');
 
 --
