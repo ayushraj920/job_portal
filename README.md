@@ -13,7 +13,7 @@
 
 
 # Technology and Languages Used
-  - Flask Framework
+  - Django Framework
   - HTML, CSS, Python, MYSQL, SQL
   
 # Features
